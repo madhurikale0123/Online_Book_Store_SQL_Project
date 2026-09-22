@@ -39,8 +39,12 @@ Description: Many-to-many relationship between books and suppliers.
 Key Features
 
 Book Management - Add, update, delete book records.
+
 Customer Management - Register and manage customer details.
+
 Order Processing -  Create new orders, view order history.
+
 Inventory Tracking -  Monitor stock quantities and manage restocking.
+
 Reporting - Generate reports on sales, inventory, and customer activities.
 
