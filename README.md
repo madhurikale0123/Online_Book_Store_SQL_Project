@@ -9,31 +9,37 @@ The database schema comprises multiple tables, each serving a specific purpose:
 1. Books
 
 Attributes -  BookID (PK), Title, Author, Genre, Price, StockQuantity
+
 Description -  Stores details about each book available in the store.
 
 2. Customers
 
 Attributes -  CustomerID (PK), Name, Email, Phone, Address
+
 Description -  Contains information about customers registered in the system.
 
 3. Orders
 
 Attributes - OrderID (PK), CustomerID (FK), OrderDate, TotalAmount
+
 Description -  Records each purchase made by customers.
 
 4. OrderDetails
 
 Attributes - OrderDetailID (PK), OrderID (FK), BookID (FK), Quantity, PriceAtPurchase
+
 Description - Details of books included in each order.
 
 5. Suppliers
 
 Attributes -  SupplierID (PK), Name, ContactInfo
+
 Description -  Suppliers providing books to the store.
 
 7. BookSuppliers
 
 Attributes -  BookID (FK), SupplierID (FK)
+
 Description -  Many-to-many relationship between books and suppliers.
 
 Key Features
